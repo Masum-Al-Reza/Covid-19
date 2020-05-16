@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="masum">#d5e29f</color>
+    <color name="cases">#FFA726</color>
+    <color name="recovered">#66BB6A</color>
+    <color name="deaths">#EF5350</color>
+    <color name="active">#29B6F6</color>
+    <color name="card1">#FFB259</color>
+    <color name="card2">#FF5959</color>
+    <color name="card3">#4CD97B</color>
+    <color name="card4">#4CB5FF</color>
+    <color name="card5">#9059FF</color>
+
+    <color name="nav_checked">#4C79FF</color>
+    <color name="nav_unchecked">#999FBF</color>
+</resources>

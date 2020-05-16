@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#0E7867"
+    tools:context=".Splash_screen">
+
+    <ImageView
+        android:id="@+id/coronaicon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/bacteria"
+        />
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/dataProgress"
+        style="@style/SpinKitView.Wave"
+        android:layout_width="wrap_content"
+       android:layout_marginTop="50dp"
+      android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:SpinKit_Color="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/logotTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/akronim"
+        android:text="Covid-19 tracker"
+
+        android:textColor="@color/masum"
+        android:textSize="56sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="developed by Masum"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/masum"
+        android:id="@+id/mineTv"
+        android:layout_marginLeft="250dp"/>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/global"
+        android:title="Global"
+
+        android:icon="@drawable/worldicon"/>
+    <item
+        android:id="@+id/own"
+        android:title="Home"
+
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/countries"
+        android:title="All Countries"
+
+        android:icon="@drawable/allcountyicon"/>
+    <item
+        android:id="@+id/symptomps"
+        android:title="Symptomps"
+
+        android:icon="@drawable/symptomp"/>
+    <item
+        android:id="@+id/about"
+        android:title="About"
+
+        android:icon="@drawable/ic_info_black_24dp"/>
+
+</menu>
